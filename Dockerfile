@@ -38,4 +38,4 @@ WORKDIR /home/aria2
 
 ENV RPC_SECRET=MobyDick
 
-CMD ["./start.sh"]
+ENTRYPOINT ["/bin/sh", "/home/aria2/start.sh"]
